@@ -1,1 +1,6 @@
 # youtube-video-summarizer
+The YouTube Video Summarizer is a mini-project aimed at developing a tool that extracts and summarizes key points from YouTube videos. The growing volume of YouTube content has made it challenging to quickly extract key insights from videos. The YouTube Video Summarizer project is designed to create a condensed version of video transcripts, allowing users to browse through important points without distractions. It utilizes advanced technologies such as Yt-dlp, Whisper, Pydub, Flask. A Transformer-based model then summarizes this transcription by keeping only the essential information, thus saving users valuable time. The tool is available as a Chrome extension, featuring an intuitive interface with timestamped key moments for easy navigation through a Flask API. The project faces challenges like handling diverse speech patterns, ensuring data privacy, and maintaining high accuracy while remaining user-focused. The project can be beneficial for users looking for quick insights from educational, tutorial, or informational videos without watching the entire content. The summarizer can be integrated as a browser extension or web application, allowing users to input YouTube links for automatic summarization.
+
+
+ 
+	
