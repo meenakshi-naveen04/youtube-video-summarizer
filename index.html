@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>YouTube Video Summarizer</h1>
+        <p>Get concise summaries of YouTube videos instantly.</p>
+    </header>
+
+    <div class="container">
+        <h2>Enter Video URL</h2>
+        <div class="input-group">
+            <input type="text" id="videoUrl" placeholder="Paste YouTube Video URL Here">
+            <button id="summarizeBtn"><i class="fas fa-play"></i> Summarize</button>
+        </div>
+        <div class="summary-container">
+            <h2><i class="fas fa-list-alt"></i> Summary</h2>
+            <p id="summary"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p><i class="fas fa-envelope"></i> Contact us at <a href="mailto:support@summarizer.com">support@summarizer.com</a></p>
+        <p>© 2025 YT Summarizer. All rights reserved.</p>
+        <p>Contact us: 75868756574</p>
+    </footer>
+
+</body>
+</html>
